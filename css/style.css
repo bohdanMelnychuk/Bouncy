@@ -106,7 +106,7 @@ body a{
     width: 80%;
     margin: 0 auto;
 }
-.slogan-section a .fa {
+.slogan-section a {
     height: 40px;
     width: 40px;
     background-color: #19bd9a;
@@ -116,10 +116,10 @@ body a{
     font-weight: 700;
     -webkit-transition: .3s;
     transition: .3s;
-    position: absolute;
-    bottom: 20%;
+    display: inline-block;
+    margin-top: 30vh;
 }
-.slogan-section a .fa:hover{
+.slogan-section a:hover{
     background-color: #17a889;
     box-shadow: 0 .5px .5px .5px grey;
 }
@@ -769,12 +769,11 @@ body a{
         -ms-flex-direction: column;
         flex-direction: column
     }
-    .person-skills,
-    .person-img{
+    .person .person-skills{
         width: 100%;
     }
     .person-img img{
-        height: 150px;
+        display: none;
     }
     .feature-project .feature{
         height: 200px;
