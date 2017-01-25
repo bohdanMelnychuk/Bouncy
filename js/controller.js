@@ -14,7 +14,7 @@ var app = angular.module('appBouncy',[]);
         $scope.showMap = function(e){
             e.preventDefault();
             $('.find-us-on-map').css({
-                opacity : 0
+                display : 'none'
             })
         };
             
